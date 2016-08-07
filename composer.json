@@ -1,0 +1,11 @@
+{
+    "name": "thyseus/yii2-word-validator",
+    "description": "Yii 2 Validator that validates string contents for count, blacklist and whitelist.",
+    "authors": [
+        {
+            "name": "Herbert Maschke",
+            "email": "thyseus@gmail.com"
+        }
+    ],
+    "require": {}
+}
