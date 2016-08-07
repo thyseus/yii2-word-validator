@@ -17,7 +17,7 @@ composer require thyseus/yii2-word-validator
 Add the following code to your model class rules() method
 
 ~~~
-use app\components\WordValidator;
+use thyseus\validators\WordValidator;
 
 public function rules()
 {
@@ -32,7 +32,7 @@ public function rules()
 For example:
 
 ~~~
-use app\components\WordValidator;
+use thyseus\validators\WordValidator;
 
 public function rules() {
   return [

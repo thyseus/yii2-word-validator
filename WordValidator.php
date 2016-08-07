@@ -1,6 +1,6 @@
 <?php
 /**
- * 
+ *
  * WordValidator class file.
  *
  * @author Anton Yakushin <yakushinanton@gmail.com>
@@ -53,7 +53,7 @@
  */
 
 
-namespace app\components;
+namespace thyseus\validators;
 
 use Yii;
 use yii\validators\Validator;
