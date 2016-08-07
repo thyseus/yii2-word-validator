@@ -23,7 +23,7 @@ public function rules()
 {
    return [
        //other validators...
-       array('attributeName', WordValidator::className(), , /*add here needed rules*/),
+       array('attributeName', WordValidator::className(), /*add custom rules here*/),
    );
 }
 
