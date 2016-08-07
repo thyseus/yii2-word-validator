@@ -3,9 +3,14 @@
     "description": "Yii 2 Validator that validates string contents for count, blacklist and whitelist.",
     "authors": [
         {
+            "name": "Anton Yakushin"
+        },
+        {
             "name": "Herbert Maschke",
             "email": "thyseus@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    }
 }

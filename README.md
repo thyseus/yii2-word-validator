@@ -10,7 +10,7 @@ Tested in Yii 2.0.9.
 
 ##Installation
 
-composer require "thyseus/word-validator:@dev"
+composer require thyseus/yii2-word-validator
 
 ##Usage
 
