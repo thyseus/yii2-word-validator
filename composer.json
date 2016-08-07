@@ -1,16 +1,32 @@
 {
-    "name": "thyseus/yii2-word-validator",
-    "description": "Yii 2 Validator that validates string contents for count, blacklist and whitelist.",
-    "authors": [
-        {
-            "name": "Anton Yakushin"
-        },
-        {
-            "name": "Herbert Maschke",
-            "email": "thyseus@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0"
+  "name": "thyseus/yii2-word-validator",
+  "description": "Yii 2 Validator that validates string contents for count, blacklist and whitelist.",
+  "keywords": [
+    "yii",
+    "yii2",
+    "extension",
+    "validator",
+    "word",
+    "blacklist",
+    "whitelist"
+  ],
+  "homepage": "https://github.com/thyseus/yii2-word-validator",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Anton Yakushin"
+    },
+    {
+      "name": "Herbert Maschke",
+      "email": "thyseus@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "thyseus\\validators\\": ""
+    }
+  }
 }
