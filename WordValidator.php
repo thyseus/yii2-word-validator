@@ -309,7 +309,7 @@ class WordValidator extends Validator
 	 * @return string the client-side validation script.
 	 * @see CActiveForm::enableClientValidation
 	 */
-	public function clientValidateAttribute($object, $attribute)
+	public function clientValidateAttribute($object, $attribute, $view)
 	{
         $this->_object    = $object;
         $this->_attribute = $attribute;
