@@ -294,11 +294,11 @@ class WordValidator extends Validator
     protected function getDefaultMessages()
     {
         return array(
-            'max'   => '{attribute} is too long (maximum is {max} words).',
-            'min'   => '{attribute} is too short (minimum is {min} words).',
-            'exact' => '{attribute} is of the wrong length (should be {exact} words).',
-            'blacklist' => '{attribute} should not contain words ({blacklist}).',
-            'whitelist' => '{attribute} should contain at least one of the words ({whitelist}).'
+            'max'       => Yii::t('app', '{attribute} is too long (maximum is {max} words).'),
+            'min'       => Yii::t('app', '{attribute} is too short (minimum is {min} words).'),
+            'exact'     => Yii::t('app', '{attribute} is of the wrong length (should be {exact} words).'),
+            'blacklist' => Yii::t('app', '{attribute} should not contain words ({blacklist}).'),
+            'whitelist' => Yii::t('app', '{attribute} should contain at least one of the words ({whitelist}).')
         );
     }
 
