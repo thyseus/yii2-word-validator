@@ -283,7 +283,7 @@ class WordValidator extends Validator
             'min' => $this->min,
             'max' => $this->max,
             'exact' => $this->exact,
-            'blacklist' => implode(',', $this->blacklist),
+            'blacklist' => $this->blacklist ? implode(',', $this->blacklist) : [],
         ]);
     }
 
